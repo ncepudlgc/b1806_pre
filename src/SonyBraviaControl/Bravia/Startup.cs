@@ -23,6 +23,8 @@ public static class Startup
         services.AddSingleton<IDeviceStatusStrategy<PowerStatus>, PowerStatusStrategy>();
         services.AddSingleton<IDeviceStatusStrategy<PlayContent>, PlayContentStrategy>();
         
+        services.AddSingleton<INotificationService, NotificationService>();
+        
         return services;
     }
 }
