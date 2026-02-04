@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
@@ -11,6 +11,5 @@
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="System.Reactive" Version="6.0.1" />
-      <PackageReference Include="System.Threading.Channels" Version="8.0.0" />
     </ItemGroup>
 </Project>
