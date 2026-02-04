@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+build_docker.sh
+run_docker.sh
